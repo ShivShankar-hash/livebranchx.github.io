@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,600&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    width: 100%;
+    -webkit-user-select: none;
+    user-select: none;
+    overflow-x: hidden;
+    font-family: Rubik;
+}
+
+.header {
+    padding: 24px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: inset 0px -1px 0px #EEEEEE;
+}
+
+a.signup-btn {
+    text-decoration: none;
+    background: #1C0E59;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 51px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+/*Banner & From Section*/
+.main-div {
+    display: flex;
+    align-items: center;
+    background-color: #F7F7F7;
+}
+
+.image-section{
+    width: 51%;
+}
+
+.form-Section {
+    background-color: #F7F7F7;
+    width: 49%;
+}
+
+.form-content {
+    margin: 0 40px;
+    background: linear-gradient(156.65deg, #ECECEC 1.2%, #FFFFFF 98.95%);
+    border: 1px solid #F7F7F7;
+    box-shadow: -10px -10px 20px #ffffff, 10px 10px 40px rgb(210 210 210 / 60%);
+    border-radius: 24px;
+    padding: 40px;
+}
+
+.form-title {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+
+label {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #404040;
+}
+
+
+
+/*Button*/
+
+button#submit {
+    font-family: Rubik;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background-color: #1C0E59;
+    padding: 14px 0;
+    border-radius: 5px;
+    margin: 0 0 12px 0;
+    width: 100%
+}
+
+
+input#email,
+input#password {
+    padding: 15px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+    margin-top: 8px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+a#forgot {
+    text-decoration: none;
+    color: #333333;
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+/*Footer Section*/
+
+
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+ul.footer-ul {
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+}
+
+ul.footer-ul li a{
+   text-decoration: none;
+   color: #333;
+}
